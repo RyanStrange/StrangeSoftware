@@ -158,4 +158,8 @@ body {
     display: flex;
     flex-direction: column;
   }
+
+  .App {
+    min-height: 100svh;
+  }
 }
