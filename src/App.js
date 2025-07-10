@@ -15,19 +15,31 @@ function App() {
 
   return (
     <div className="App">
+      {menuOpen && (
+        <div className="menu-overlay" onClick={() => setMenuOpen(false)}></div>
+      )}
       <div className="menu">
         <IoMenu onClick={toggleMenu} />
         {menuOpen && (
           <div className="mobile-menu">
-            <p>Home</p>
-            <p>Portfolio</p>
-            <p>Work Experience</p>
-            <p>About</p>
-            <p>Contact</p>
+            <div className="mobile-menu-item">
+              <p>Home</p>
+            </div>
+            <div className="mobile-menu-item">
+              <p>Portfolio</p>
+            </div>
+            <div className="mobile-menu-item">
+              <p>Work Experience</p>
+            </div>
+            <div className="mobile-menu-item">
+              <p>About</p>
+            </div>
+            <div className="mobile-menu-item">
+              <p>Contact</p>
+            </div>
           </div>
         )}
       </div>
-
       <header className="header">
         <DecryptedText
           speed={100}
