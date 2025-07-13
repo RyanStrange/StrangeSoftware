@@ -182,6 +182,11 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: local;
+    min-height: 100svh;
+  }
+
+  .Section {
+    min-height: 100svh;
   }
 
   .header {
