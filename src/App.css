@@ -188,12 +188,12 @@ a {
     display: none;
   }
 
-  .SalesPitch {
+  /* .SalesPitch {
     bottom: 8rem;
     margin-left: 2rem;
     margin-right: 2rem;
     position: absolute;
-  }
+  } */
 
   .Dock {
     display: flex;
