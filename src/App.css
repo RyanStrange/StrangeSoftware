@@ -193,8 +193,12 @@ a {
     display: none;
   }
 
+  .Title {
+    margin-top: 6rem;
+  }
+
   .SalesPitch {
-    bottom: 6rem;
+    bottom: 4rem;
     margin-left: 2rem;
     margin-right: 2rem;
     position: absolute;
