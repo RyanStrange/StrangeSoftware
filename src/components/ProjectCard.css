@@ -1,0 +1,33 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  border: var(--bg);
+  border-radius: 15px;
+  border: 1px solid var(--text);
+  padding: 1rem;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  min-width: 100%;
+  border: 1px solid var(--text);
+  padding: 1rem;
+}
+
+.image {
+  max-width: 30%;
+}
+
+.title {
+  display: flex;
+  min-width: 100%;
+  padding: 1rem;
+}
+
+.description {
+  min-width: 100%;
+  padding: 1rem;
+}

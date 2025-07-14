@@ -70,43 +70,20 @@ function App() {
       <section id="home" className="HomeSection">
         <div className="Title">
           <h1>Ryan Strange</h1>
-          <h2>
-            {" "}
-            {/* <DecryptedText
-              speed={50}
-              text="Software Engineer"
-              sequential={true}
-              animateOn="load"
-            ></DecryptedText> */}
-            Software Engineer
-          </h2>
+          <h2>Software Engineer</h2>
         </div>
         <div className="SalesPitch">
-          <p>
-            {" "}
-            {/* <DecryptedText
-              speed={50}
-              text="Welcome to Strange Software :)"
-              sequential={true}
-              animateOn="load"
-            ></DecryptedText> */}
-            Welcome to Strange Software :)
-          </p>
-          <p>
-            {/* {" "}
-            <DecryptedText
-              speed={50}
-              text="Please enjoy this small showcase of my life and work"
-              sequential={true}
-              animateOn="load"
-            ></DecryptedText> */}
-            Please enjoy this small showcase of my life and work
-          </p>
+          <p>Welcome to Strange Software :)</p>
+          <p>Please enjoy this small showcase of my life and work</p>
         </div>
       </section>
       <section id="portfolio" className="Section">
         <h2>Portfolio</h2>
         <p>Projects will go here</p>
+        <div className="project-card-container">
+          <div className="project-card">P1</div>
+          <div className="project-card">P1</div>
+        </div>
       </section>
 
       <section id="workexperience" className="Section">
