@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
-import "./fonts.css/IBM_Plex_Mono/IBMPlexMono-Regular.ttf";
-import DecryptedText from "./components/DecryptedText";
+import "./fonts.css";
 import { React, useState } from "react";
 import { IoMenu } from "react-icons/io5";
+import ProjectCard from "./components/ProjectCard";
+import { puppeteerLogo, reactLogo } from "./assets/tech-stack-imgs.js";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -81,8 +81,26 @@ function App() {
         <h2>Portfolio</h2>
         <p>Projects will go here</p>
         <div className="project-card-container">
-          <div className="project-card">P1</div>
-          <div className="project-card">P1</div>
+          <ProjectCard
+            title="JackFM Scraper"
+            images={[
+              reactLogo,
+              puppeteerLogo,
+              puppeteerLogo,
+              puppeteerLogo,
+              reactLogo,
+              reactLogo,
+            ]}
+          />
+          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
+          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
+          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
+          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
+          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
+          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
+          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
+          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
+          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
         </div>
       </section>
 

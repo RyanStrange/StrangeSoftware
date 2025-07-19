@@ -6,28 +6,40 @@
   border-radius: 15px;
   border: 1px solid var(--text);
   padding: 1rem;
+  /* width: 30%; */
+  /* max-width: 30%; */
 }
 
 .image-container {
   display: flex;
   flex-direction: row;
   flex: 1 1 auto;
+  flex-wrap: wrap;
   min-width: 100%;
-  border: 1px solid var(--text);
-  padding: 1rem;
+  max-height: 30%;
+  /* border: 1px solid var(--text); */
+  /* gap: 1rem; */
 }
 
 .image {
-  max-width: 30%;
+  width: 33%;
+  height: 50%;
+  object-fit: contain;
+  /* border: 1px solid var(--text); */
+  border-radius: 7%;
 }
 
 .title {
   display: flex;
   min-width: 100%;
   padding: 1rem;
+  /* padding-bottom: 1rem; */
+  /* padding-top: 1rem; */
+  /* border: 1px solid var(--text); */
 }
 
 .description {
   min-width: 100%;
   padding: 1rem;
+  /* border: 1px solid var(--text); */
 }
