@@ -127,7 +127,7 @@ a {
 .menu {
   position: sticky;
   top: 1rem;
-  right: 1rem;
+  right: 0.5rem;
   display: none;
   align-self: flex-end;
   font-size: 2rem;
@@ -137,12 +137,17 @@ a {
 
 .menu-btn {
   display: flex;
+  background-color: black;
+  /* color: black; */
+  /* background-size: auto; */
+  border-radius: 2px;
+  /* border: 1px solid white; */
 }
 
 .mobile-menu-tray {
   position: fixed;
   top: 3rem;
-  right: 1rem;
+  right: 0.5rem;
   width: 20vh;
   display: flex;
   flex-direction: column;
@@ -177,7 +182,7 @@ a {
 }
 
 .project-card-container {
-  padding: 2rem;
+  padding: 3rem;
   max-width: 100%;
   display: grid;
   gap: 1rem;
