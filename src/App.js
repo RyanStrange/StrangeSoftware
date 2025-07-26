@@ -3,7 +3,15 @@ import "./fonts.css";
 import { React, useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import ProjectCard from "./components/ProjectCard";
-import { puppeteerLogo, reactLogo } from "./assets/tech-stack-imgs.js";
+import {
+  cLogo,
+  jsLogo,
+  psLogo,
+  puppeteerLogo,
+  reactLogo,
+  twilioLogo,
+  vercelLogo,
+} from "./assets/tech-stack-imgs.js";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -79,28 +87,36 @@ function App() {
       </section>
       <section id="portfolio" className="Section">
         <h2>Portfolio</h2>
-        <p>Projects will go here</p>
+        <p className="SectionDescription">
+          Projects I've made outside of school and work
+        </p>
         <div className="project-card-container">
           <ProjectCard
-            title="JackFM Scraper"
-            images={[
-              reactLogo,
-              puppeteerLogo,
-              puppeteerLogo,
-              puppeteerLogo,
-              reactLogo,
-              reactLogo,
-            ]}
+            images={[jsLogo, reactLogo, vercelLogo]}
+            title="StrangeSoftware.ca"
+            description="My Portfolio site. Used to practice 
+          my React knowledge and sharpen my skills building responsive websites, check me out on 
+          mobile!. Made using Create React App and Node.js, deployed on Vercel"
+            link="https://github.com/RyanStrange/StrangeSoftware"
           />
-          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
-          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
-          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
-          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
-          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
-          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
-          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
-          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
-          <ProjectCard title="Test2" images={[reactLogo, puppeteerLogo]} />
+          <ProjectCard
+            title="JackFM Scraper"
+            images={[jsLogo, puppeteerLogo, twilioLogo]}
+            description="JavaScript scraper built to try and win radio contest. 
+            Needed to monitor for songs played more than once per day. 
+            Scrapes live songs on Jack.FM site using Puppeteer, and uses Twilio
+            to alert users when a repeat is detected"
+            link="https://github.com/RyanStrange/JackFM-Song-Scraper"
+          />
+          <ProjectCard
+            title="Study Room Booking Bot"
+            images={[cLogo, psLogo]}
+            description="Powershell and C script I wrote with my friends in first year to reserve 
+            our favourite study room all day every day while we were at Camosun College. I could do it
+            a lot more efficiently with what I know now, but this was the project that made me choose
+            Software Engineering so I like to leave it untouched :)"
+            link="https://github.com/RyanStrange/BookBotPublic"
+          />
         </div>
       </section>
 

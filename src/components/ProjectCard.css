@@ -23,23 +23,38 @@
 
 .image {
   width: 33%;
-  height: 50%;
+  height: 100%;
   object-fit: contain;
   /* border: 1px solid var(--text); */
-  border-radius: 7%;
+  /* border-radius: 15px; */
 }
 
 .title {
   display: flex;
   min-width: 100%;
-  padding: 1rem;
+  /* padding: 1rem; */
   /* padding-bottom: 1rem; */
-  /* padding-top: 1rem; */
+  padding-top: 1rem;
   /* border: 1px solid var(--text); */
 }
 
 .description {
   min-width: 100%;
-  padding: 1rem;
+  /* padding: 1rem; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-grow: 1;
   /* border: 1px solid var(--text); */
+}
+
+.github-button {
+  padding: 1rem;
+  border: 1px solid var(--text);
+  border-radius: 15px;
+  background-color: var(--bg);
+  color: var(--text);
+  /* flex-grow: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

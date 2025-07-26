@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./ProjectCard.css";
+import { FaGithub } from "react-icons/fa";
 
-export default function ProjectCard({ images = [], title }) {
+export default function ProjectCard({ images = [], title, description, link }) {
   return (
     <div className="project-card">
       <div className="image-container">
@@ -14,12 +15,16 @@ export default function ProjectCard({ images = [], title }) {
           />
         ))}
       </div>
-      <div className="title">{title}</div>
-      <div className="description">
-        Description goes here Description goes here Description goes here
-        Description goes here Description goes here Description goes here
-        Description goes here Description goes here
-      </div>
+      <h2 className="title">{title}</h2>
+      <div className="description">{description}</div>
+      <a
+        className="github-button"
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <h3>View GitHub</h3>
+      </a>
     </div>
   );
 }
