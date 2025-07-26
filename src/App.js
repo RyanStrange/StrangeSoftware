@@ -102,10 +102,10 @@ function App() {
           <ProjectCard
             title="JackFM Scraper"
             images={[puppeteerLogo, jsLogo, twilioLogo]}
-            description="JavaScript scraper built to try and win radio contest. 
+            description="JavaScript scraper built as a proof of concept for winning radio contest. 
             Needed to monitor for songs played more than once per day. 
             Scrapes live songs on Jack.FM site using Puppeteer, and uses Twilio
-            to alert users when a repeat is detected"
+            to alert users when a repeat is detected. Not used for real contest"
             link="https://github.com/RyanStrange/JackFM-Song-Scraper"
           />
           <ProjectCard
