@@ -6,6 +6,7 @@ import ProjectCard from "./components/ProjectCard";
 import {
   cLogo,
   jsLogo,
+  jsonLogo,
   psLogo,
   puppeteerLogo,
   reactLogo,
@@ -91,6 +92,13 @@ function App() {
           Projects I've made outside of school and work
         </p>
         <div className="project-card-container">
+          <ProjectCard
+            images={[puppeteerLogo, jsLogo, jsonLogo]}
+            title="UVic SENG Course Scraper"
+            description="Scraper used to gather available courses with pre-req info
+            for UVic Software Engineering students. Written in JavaScript using Puppeteer,
+            storing the gathered info in a JSON file"
+          />
           <ProjectCard
             images={[jsLogo, reactLogo, vercelLogo]}
             title="StrangeSoftware.ca"

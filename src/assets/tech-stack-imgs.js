@@ -5,6 +5,7 @@ import jsLogo from "./Unofficial_JavaScript_logo_2.svg";
 import cLogo from "./C_Programming_Language-2.svg";
 import psLogo from "./PowerShell_5.0_icon.png";
 import vercelLogo from "./vercel-logotype-dark.svg";
+import jsonLogo from "./JSON_vector_logo.svg";
 
 export {
   reactLogo,
@@ -14,4 +15,5 @@ export {
   cLogo,
   psLogo,
   vercelLogo,
+  jsonLogo,
 };
