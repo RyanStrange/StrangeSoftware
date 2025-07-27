@@ -98,6 +98,7 @@ function App() {
             description="Scraper used to gather available courses with pre-req info
             for UVic Software Engineering students. Written in JavaScript using Puppeteer,
             storing the gathered info in a JSON file"
+            link="https://github.com/RyanStrange/ECS-Course-Scraper"
           />
           <ProjectCard
             images={[jsLogo, reactLogo, vercelLogo]}
