@@ -161,7 +161,8 @@ function App() {
               fixes
             </li>
             <li>
-              Managed internal knowledge Sharepoint sites with 1000+ users
+              Managed content and access for internal knowledge Sharepoint sites
+              with 1000+ users
             </li>
 
             <li>
@@ -195,8 +196,8 @@ function App() {
             <li>
               Lobbied for and lead transition to MS Entra Access Package for
               managing external user access to Sharepoint Extranet Sites,
-              cutting average Access Permission Grant by 80% over previous
-              access solution
+              cutting average Access Permission Grant action by 80% over
+              previous access solution
             </li>
             <li>
               Developed All Users query view for Sharepoint Extranet sites,
