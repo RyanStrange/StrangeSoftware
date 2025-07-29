@@ -132,7 +132,7 @@ function App() {
       <section id="workexperience" className="Section">
         <h2>Work Experience</h2>
         <div className="work-xp-body">
-          <h3 className="work-xp-title">
+          <h3>
             Software Engineer and Web Analyst
             <br />
             BC Gov Ministry of Social Development and Poverty Reduction
@@ -151,9 +151,13 @@ function App() {
           <br />
           <ul className="work-xp-list">
             <li>
-              Used <strong>REACT.JS</strong> to work on the Wage Subsidy
-              platform, including bug fixes and bringing several features from
-              conception through testing, and into deployment
+              Used{" "}
+              <strong>
+                REACT.JS, TypeScript, and Openshift (Open Source Kubernetes)
+              </strong>{" "}
+              to work accross the full stack of the Wage Subsidy platform.
+              Notable work included bug fixes and bringing several new features
+              from conception through testing, and into deployment
             </li>
             <li>
               Worked on the WorkBC Mobile App using{" "}
@@ -166,7 +170,7 @@ function App() {
             </li>
 
             <li>
-              Developed a custom Sharepoint site for the ELMSD Policy Team:
+              Solo developed a custom Sharepoint site for the ELMSD Policy Team:
             </li>
             <ul className="ELMSDR-work-list">
               <li>
@@ -196,13 +200,21 @@ function App() {
             <li>
               Lobbied for and lead transition to MS Entra Access Package for
               managing external user access to Sharepoint Extranet Sites,
-              cutting average Access Permission Grant action by 80% over
+              cutting average Access Permission Grant action time by 80% over
               previous access solution
             </li>
             <li>
               Developed All Users query view for Sharepoint Extranet sites,
               completely ELIMINATING previous worst case access removal scenario
-              if user was placed in the wrong access group{" "}
+              if user was placed in the wrong access group
+            </li>
+            <li>
+              Currently in process of researching and implementing MS Power
+              Automate solution for external user access to Sharepoint Extranet
+              sites. Once complete, will completely elimnate need for manual
+              addition/removal of External Users to MS Entra Access Package.
+              These manual additions/removals consumed about 75% of the previous
+              co-op students' time
             </li>
           </ul>
         </div>
@@ -210,12 +222,48 @@ function App() {
 
       <section id="about" className="Section">
         <h2>About Me</h2>
-        <p>Bio or background info here</p>
+        <div className="about-body">
+          <h3>Who am I?</h3>
+          <p>
+            I'm a 25 year old Software Engineering student at UVic, looking for
+            my next great team to be a part of :)
+          </p>
+          <br />
+          <h3>What do I do outside of school and work?</h3>
+          <p>
+            I love sports, having played hockey for over 20 years. I am
+            currently the Captain of the UVic Vikes Hockey Team, and we are
+            about to embark on this upcoming season as defending champions of
+            the BCIHL, seeking the program's first back to back championship
+            win.
+            <br />
+            <br />
+            During my free time I love to play video games, and spend time with
+            my lovely girlfriend. Sometimes I am even lucky enough to play video
+            games with my lovely girlfriend!
+          </p>
+          <br />
+          <h3>What is my favourite video game?</h3>
+          <p>
+            I have a few answers for this one. My favourite game as a piece of
+            art is Hollowknight. My favourite game to play with friends is
+            Fortnite. My favourite game that gets me to plan and think is
+            Balatro
+          </p>
+          <br />
+          <h3>Why do I do Software Engineering?</h3>
+          <p>
+            I love to solve problems, and I love art. Software Engineering is a
+            beautiful mix of these two things. I love working with engineers,
+            putting to use my leadership skills and experience building elite
+            winning cultures.
+          </p>
+        </div>
       </section>
 
       <section id="contact" className="Section">
         <h2>Contact</h2>
-        <p>Form or contact info here</p>
+        <p>ryanstrange@uvic.ca</p>
       </section>
     </div>
   );
