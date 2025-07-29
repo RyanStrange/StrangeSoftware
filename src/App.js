@@ -131,7 +131,80 @@ function App() {
 
       <section id="workexperience" className="Section">
         <h2>Work Experience</h2>
-        <p>Work details here</p>
+        <div className="work-xp-body">
+          <h3 className="work-xp-title">
+            Software Engineer and Web Analyst
+            <br />
+            BC Gov Ministry of Social Development and Poverty Reduction
+            <br />
+            Jan 2025 - Aug 2025
+            <br />
+            <br />
+          </h3>
+          <p>
+            During my 8 month co-op within the SDPR's Employment and Labour
+            Market Services Division Development Team, I was fortunate to work
+            on a variety of projects that aim to help the people of British
+            Columbia:
+          </p>
+          <br />
+          <br />
+          <ul className="work-xp-list">
+            <li>
+              Used <strong>REACT.JS</strong> to work on the Wage Subsidy
+              platform, including bug fixes and bringing several features from
+              conception through testing, and into deployment
+            </li>
+            <li>
+              Worked on the WorkBC Mobile App using{" "}
+              <strong>REACT NATIVE</strong>, focusing on UI improvements and bug
+              fixes
+            </li>
+            <li>
+              Managed internal knowledge Sharepoint sites with 1000+ users
+            </li>
+
+            <li>
+              Developed a custom Sharepoint site for the ELMSD Policy Team:
+            </li>
+            <ul className="ELMSDR-work-list">
+              <li>
+                Elicited requirements over several weeks from non-technical
+                stakeholders
+              </li>
+              <li>Organized a development schedule in an Agile style</li>
+              <li>
+                Conducted weekly check-in's with stakeholders to validate and
+                verify requirements
+              </li>
+              <li>
+                Developed the site with scalability in mind, focusing on ease of
+                access and searchability for the two document libraries that
+                grew to hold 1000+ internal documents after launch
+              </li>
+              <li>
+                Researched Sharepoint best practices for filtering and searching
+                to implement tagging system and several custom views for quick
+                categorized queries in the Document Libraries
+              </li>
+              <li>
+                Presented and launched site during a Division-wide All Hands
+                Meeting to 1000+ users
+              </li>
+            </ul>
+            <li>
+              Lobbied for and lead transition to MS Entra Access Package for
+              managing external user access to Sharepoint Extranet Sites,
+              cutting average Access Permission Grant by 80% over previous
+              access solution
+            </li>
+            <li>
+              Developed All Users query view for Sharepoint Extranet sites,
+              completely ELIMINATING previous worst case access removal scenario
+              if user was placed in the wrong access group{" "}
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section id="about" className="Section">
